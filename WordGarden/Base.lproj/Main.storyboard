@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordGarden" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="GoW-OX-vDf">
+                                <rect key="frame" x="16" y="74" width="396" height="20.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Word Gussed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hj6-Wf-yBZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="191.33333333333334" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRp-5O-JWU">
+                                        <rect key="frame" x="218.33333333333334" y="0.0" width="10.333333333333343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word Gussed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOn-fj-fy9">
+                                        <rect key="frame" x="255.66666666666669" y="0.0" width="103" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UO-1Y-5Ri">
+                                        <rect key="frame" x="385.66666666666669" y="0.0" width="10.333333333333314" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="cRp-5O-JWU" firstAttribute="baseline" secondItem="cOn-fj-fy9" secondAttribute="firstBaseline" id="WAR-b5-eJw"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="qLP-fs-Q4w">
+                                <rect key="frame" x="16" y="124.33333333333333" width="396" height="20.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Missed Words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C3-cp-kea">
+                                        <rect key="frame" x="0.0" y="0.0" width="189.33333333333334" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eND-Y1-wMq">
+                                        <rect key="frame" x="215.33333333333334" y="0.0" width="10.333333333333343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missed Words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbr-WU-vix">
+                                        <rect key="frame" x="251.66666666666669" y="0.0" width="108" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mps-g3-ZDi">
+                                        <rect key="frame" x="385.66666666666669" y="0.0" width="10.333333333333314" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Gusses To UnderCover the Hidden Words?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW4-QE-J0X">
+                                <rect key="frame" x="16" y="174.66666666666666" width="396" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="DSw-WI-yEp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="Afc-ln-bPs">
+                                <rect key="frame" x="20" y="285.66666666666669" width="388" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y9N-AR-3aU">
+                                        <rect key="frame" x="0.0" y="0.0" width="237" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dt8-a6-r36"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Uk-Yv-wn3">
+                                        <rect key="frame" x="304" y="0.0" width="84" height="30"/>
+                                        <state key="normal" title="Guess Word"/>
+                                        <connections>
+                                            <action selector="guessedLetterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrh-05-Nx1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtP-Wt-WyD">
+                                <rect key="frame" x="157.66666666666666" y="367.66666666666669" width="112.99999999999997" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="1ty-ND-Ezd"/>
+                                    <constraint firstAttribute="width" constant="113" id="N0d-gT-bly"/>
+                                </constraints>
+                                <state key="normal" title="Try Again"/>
+                                <connections>
+                                    <action selector="tryAgainButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tP-Dn-CxR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Made Zero Gusses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8d-in-eiu">
+                                <rect key="frame" x="20" y="448.66666666666669" width="388" height="111.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="eCK-a8-Ur2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower8" translatesAutoresizingMaskIntoConstraints="NO" id="Ek0-xK-sPU">
+                                <rect key="frame" x="0.0" y="584.66666666666663" width="428" height="316.33333333333337"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _ _ _" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3U-HJ-gtO">
+                                <rect key="frame" x="170" y="241.66666666666666" width="38" height="25.999999999999972"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="yAS-Fx-KqM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qLP-fs-Q4w" secondAttribute="trailing" constant="16" id="5Jv-Lk-1EP"/>
+                            <constraint firstItem="A3U-HJ-gtO" firstAttribute="top" secondItem="uW4-QE-J0X" secondAttribute="bottom" constant="7" id="6BS-OP-KSL"/>
+                            <constraint firstItem="Afc-ln-bPs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7vZ-j5-GPX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GoW-OX-vDf" secondAttribute="trailing" constant="16" id="Bbm-sS-yzD"/>
+                            <constraint firstItem="GoW-OX-vDf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Eup-wS-rOx"/>
+                            <constraint firstItem="qLP-fs-Q4w" firstAttribute="top" secondItem="GoW-OX-vDf" secondAttribute="bottom" constant="30" id="HpY-gG-Y5h"/>
+                            <constraint firstItem="GoW-OX-vDf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JG3-1f-NpR"/>
+                            <constraint firstItem="A3U-HJ-gtO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="KdZ-FQ-mo1"/>
+                            <constraint firstItem="Ek0-xK-sPU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Mje-aJ-Bp5"/>
+                            <constraint firstItem="gtP-Wt-WyD" firstAttribute="top" secondItem="Afc-ln-bPs" secondAttribute="bottom" constant="52" id="Q5q-iA-maK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A3U-HJ-gtO" secondAttribute="trailing" constant="220" id="TfC-zX-o2K"/>
+                            <constraint firstItem="Ek0-xK-sPU" firstAttribute="top" secondItem="H8d-in-eiu" secondAttribute="bottom" constant="25" id="Tkj-pb-Vc3"/>
+                            <constraint firstItem="uW4-QE-J0X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="X7b-YQ-iU9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H8d-in-eiu" secondAttribute="trailing" constant="20" id="YpP-78-tOX"/>
+                            <constraint firstItem="gtP-Wt-WyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zkb-io-b34"/>
+                            <constraint firstItem="Ek0-xK-sPU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="9" id="d5R-QC-NkA"/>
+                            <constraint firstItem="H8d-in-eiu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eoM-a8-Yy0"/>
+                            <constraint firstItem="Afc-ln-bPs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iJd-qF-INb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ek0-xK-sPU" secondAttribute="trailing" id="lES-L3-Xc3"/>
+                            <constraint firstItem="H8d-in-eiu" firstAttribute="top" secondItem="gtP-Wt-WyD" secondAttribute="bottom" constant="30" id="lU8-fp-GQY"/>
+                            <constraint firstItem="qLP-fs-Q4w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mjl-YJ-MFu"/>
+                            <constraint firstItem="uW4-QE-J0X" firstAttribute="top" secondItem="qLP-fs-Q4w" secondAttribute="bottom" constant="30" id="o6F-JI-jxA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uW4-QE-J0X" secondAttribute="trailing" constant="16" id="qwG-pC-tgy"/>
+                            <constraint firstItem="Afc-ln-bPs" firstAttribute="top" secondItem="uW4-QE-J0X" secondAttribute="bottom" constant="51" id="rwE-Pj-xms"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Afc-ln-bPs" secondAttribute="trailing" constant="20" id="ymE-eQ-TeY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="WordBeindreveledLabel" destination="A3U-HJ-gtO" id="4mi-0C-gqV"/>
+                        <outlet property="flowerImage" destination="Ek0-xK-sPU" id="2hV-Yz-OVl"/>
+                        <outlet property="gameStatusLabel" destination="H8d-in-eiu" id="dkS-nq-0Hg"/>
+                        <outlet property="guessedLetterButton" destination="2Uk-Yv-wn3" id="ey4-yz-qWc"/>
+                        <outlet property="guessedLetterTextField" destination="Y9N-AR-3aU" id="IvG-MG-ZdJ"/>
+                        <outlet property="remainingWordsInGameLabel" destination="mps-g3-ZDi" id="QTh-11-TAA"/>
+                        <outlet property="remainingWordsLabel" destination="1UO-1Y-5Ri" id="fG9-iU-9xD"/>
+                        <outlet property="tryAgainButton" destination="gtP-Wt-WyD" id="Sz1-p1-HQA"/>
+                        <outlet property="wordGuessedLabel" destination="cRp-5O-JWU" id="EbC-fW-aap"/>
+                        <outlet property="wordMissesLabel" destination="eND-Y1-wMq" id="fPE-pD-BHy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.30841121495325" y="63.498920086393092"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flower8" width="613.66668701171875" height="1082.6666259765625"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
